@@ -1,0 +1,64 @@
+.calculator{
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.darkmode{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.inputArea{
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    padding-top: 16px;
+    padding-bottom: 18px;
+}
+
+input[type=text] {
+    background-color: rgb(0, 0, 0);
+    width: 489px;
+    color: rgb(107, 107, 106);
+    border: 0px;
+    padding: 5px;
+    font-size: 30px;
+    margin: -50px;
+    margin-top: -80px;
+    margin-top: 6px;
+}
+
+.ansArea[type = text] {
+    margin-top: 5px;
+    text-align: right;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+button:hover{
+    background-color: rgb(85, 85, 85) !important;
+}
+
+.buttonsArea{
+    background-color: rgb(2, 2, 2);
+}
+
+div > button {
+    background-color: rgb(34, 31, 31);
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    margin-top: 3px;
+    padding: 32px;
+    width: 122px;
+    font-size: 30px;
+}
+
+
+.dark-mode{
+    background-color: black;
+    color: white;
+  }
